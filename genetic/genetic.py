@@ -1,5 +1,9 @@
 from math import pi
 from math import sin
+from random import randint
+
+
+
 def fitness(x):
 	x=pi*x/180;
 	if(x>=0 and x<=2*pi):
